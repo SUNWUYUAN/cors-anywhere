@@ -3,4 +3,4 @@ LABEL author=wuyuan
 COPY . /
 RUN npm install 
 EXPOSE 3000
-CMD ["npm", "server"]
+CMD ["node", "server"]
